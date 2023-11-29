@@ -4,13 +4,6 @@ background-color: #FFFDD0;
 color: brown;
 }
 
-:root {
- --font-family: 'Times New Roman', Times, serif;
- --text-color: brown;
- --background-color: #FFFDD0; /* champagne color */
- --border-color: #654321; /* darker shade of text color */
-}
-
 body {
  background-image: url("background-img.JPG");
 }
