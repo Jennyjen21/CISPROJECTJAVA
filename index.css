@@ -1,6 +1,14 @@
 html {
 font-family: 'Times New Roman', Times, serif;
 background-color: #FFFDD0;
+color: brown;
+}
+
+:root {
+ --font-family: 'Times New Roman', Times, serif;
+ --text-color: brown;
+ --background-color: #FFFDD0; /* champagne color */
+ --border-color: #654321; /* darker shade of text color */
 }
 
 body {
@@ -16,7 +24,9 @@ h1, form, #results {
 form, #results {
  margin: 0 100px;
  padding: 20px;
- display: table;
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
 }
 
 h5, h1 {
@@ -30,13 +40,13 @@ label, input, button {
 
 input {
  line-height: 1.5em;
- height: 3em;  
+ height: 3em; 
  overflow: hidden;
  border-radius: 25px;
 }
 
 #results {
  background-color: #FFFDD0;
- padding: 20px;
+ padding: 20px; 
  border: 1px solid #654321;
 }
