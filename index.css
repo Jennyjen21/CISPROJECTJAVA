@@ -1,31 +1,31 @@
 html {
-	font-family: 'Times New Roman', Times, serif;
+font-family: 'Times New Roman', Times, serif;
+background-color: lightblue;
 }
-	
+
 body {
-	background-image: Url("background-img.JPG");
+ background-image: url("background-img.JPG");
 }
 
 h1, form, #results {
-	color: brown;
-	display: block;
-	text-align: center;
-	border: 1px solid bisque;
-	background-color: lightblue;
+ color: brown;
+ display: block;
+ text-align: center;
+ border: 1px solid bisque;
 }
 
 form, #results {
-	margin: 0 250px;
+ margin: 0 250px;
 }
 
 h5, h1 {
-	font-size: 60px;
+ font-size: 60px;
 }
 
 input {
-	line-height: 1.5em;
-    height: 3em;       
-    overflow: hidden;
-	border-radius: 25px;
-	color: brown;
+ line-height: 1.5em;
+ height: 3em;      
+ overflow: hidden;
+ border-radius: 25px;
+ color: brown;
 }
