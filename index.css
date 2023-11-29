@@ -3,7 +3,6 @@ font-family: 'Times New Roman', Times, serif;
 background-color: #FFFDD0;
 }
 
-
 body {
  background-image: url("background-img.JPG");
 }
@@ -15,7 +14,8 @@ h1, form, #results {
 }
 
 form, #results {
- margin: 0 250px;
+ margin: 0 100px;
+ padding: 20px;
 }
 
 h5, h1 {
@@ -27,4 +27,10 @@ input {
  height: 3em;    
  overflow: hidden;
  border-radius: 25px;
+}
+
+#results {
+ background-color: #FFFDD0;
+ padding: 20px;
+ border: 1px solid #654321;
 }
