@@ -6,6 +6,7 @@ color: brown;
 
 body {
    background-image: url("background-img.JPG");
+   display: center;
 }
 
 .tip-calculator {
