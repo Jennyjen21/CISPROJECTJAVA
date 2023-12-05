@@ -8,6 +8,15 @@ body {
  background-image: url("background-img.JPG");
 }
 
+.tip-calculator {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #FFFDD0;
+   height: 100vh;
+}
+
 h1, form, #results {
  display: block;
  text-align: center;
