@@ -8,7 +8,7 @@ body {
  background-image: url("background-img.JPG");
 }
 
-.tip-calculator {
+.bg-form {
    display: flex;
    flex-direction: column;
    align-items: center;
