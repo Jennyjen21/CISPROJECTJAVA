@@ -5,46 +5,47 @@ color: brown;
 }
 
 body {
-   background-image: url("background-img.JPG");
-   display: center;
+  background-image: url("background-img.JPG");
 }
 
 .tip-calculator {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   background-color: #FFFDD0;
-   height: 100vh;
-   font-family: 'Times New Roman', Times, serif;
-   color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFDD0;
+  padding: 20px;
+  border: 1px solid #654321;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
 }
 
 .tip-calculator form, .tip-calculator #results {
-   margin: 0 100px;
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .tip-calculator h5, .tip-calculator h1 {
-   font-size: 60px;
+  font-size: 60px;
 }
 
 .tip-calculator label, .tip-calculator input, .tip-calculator button {
-   display: table-cell;
-   padding: 10px;
+  display: table-cell;
+  padding: 10px;
 }
 
 .tip-calculator input {
-   line-height: 1.5em;
-   height: 3em; 
-   overflow: hidden;
-   border-radius: 25px;
+  line-height: 1.5em;
+  height: 3em; 
+  overflow: hidden;
+  border-radius: 25px;
 }
 
 .tip-calculator #results {
-   background-color: #FFFDD0;
-   padding: 20px; 
-   border: 1px solid #654321;
+  background-color: #FFFDD0;
+  padding: 20px; 
+  border: 1px solid #654321;
 }
